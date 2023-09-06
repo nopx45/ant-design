@@ -69,7 +69,7 @@ const App: React.FC = () => {
       <Menu
         theme={theme}
         onClick={onClick}
-        style={{ width: 256 }}
+        style={{ background:'green',width: 256 }}
         defaultOpenKeys={['sub1']}
         selectedKeys={[current]}
         mode="inline"
