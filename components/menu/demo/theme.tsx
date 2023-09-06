@@ -35,14 +35,6 @@ const items: MenuItem[] = [
     getItem('Submenu', 'sub3', null, [getItem('Option 7', '7'), getItem('Option 8', '8')]),
   ]),
 
-  getItem('Navigation Three', 'sub4', <SettingOutlined />, [
-    getItem('Option 9', '9'),
-    getItem('Option 10', '10'),
-    getItem('Option 11', '11'),
-    getItem('Option 12', '12'),
-  ]),
-];
-
 const App: React.FC = () => {
   const [theme, setTheme] = useState<MenuTheme>('dark');
   const [current, setCurrent] = useState('1');
